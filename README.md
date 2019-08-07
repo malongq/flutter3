@@ -1,5 +1,9 @@
 # flutter_bottom
 
+flutter底部导航栏制作
+
+
+
 A new Flutter application.
 
 ## Getting Started
