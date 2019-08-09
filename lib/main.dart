@@ -49,19 +49,38 @@
 //}
 
 //todo 这个类是练习不规则底部栏的制作入口
+//import 'package:flutter/material.dart';
+//import 'float/float_action_bar.dart';
+//void main()=>runApp(MyApp());
+//
+//class MyApp extends StatelessWidget {
+//  @override
+//  Widget build(BuildContext context) {
+//    return MaterialApp(
+//      title: '练习不规则底部按钮的制作',
+//      theme: ThemeData(
+//        primarySwatch: Colors.red,
+//      ),
+//      home: FloatBar(),
+//    );
+//  }
+//}
+
+//todo 底部工具栏灵活配置
 import 'package:flutter/material.dart';
-import 'float/float_action_bar.dart';
+import 'new_bottom/newbottom.dart';
 void main()=>runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '练习不规则底部按钮的制作',
+      title: '底部工具栏灵活配置',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.amber
       ),
-      home: FloatBar(),
+      home: NewBottom(),
     );
   }
 }
+
